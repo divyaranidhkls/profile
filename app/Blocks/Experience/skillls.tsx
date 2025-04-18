@@ -38,7 +38,7 @@ const skills: Skill[] = [
 
 const Skills = () => {
   return (
-    <div className="flex flex-col mt-4 ml-4 gap-6" id="skills">
+    <div className="flex flex-col mt-4 gap-6" id="skills">
       <h2 className="text-2xl font-bold text-center mb-6 mt-2">My Skills</h2>
       <div className="w-full">
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-h-[50vh] overflow-y-auto">
