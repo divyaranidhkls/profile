@@ -4,7 +4,6 @@ import Link from 'next/link';
 import React from 'react';
 import ThemeToggle from './Theme';
 
-import { usePathname } from 'next/navigation';
 const NavBar = (props:{className ? :string}) => {
 
   
