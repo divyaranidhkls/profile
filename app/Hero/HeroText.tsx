@@ -39,7 +39,7 @@ const HeroText = () => {
       <div className='flex gap-4 mt-6'>
         <a
           href="mailto:divyaranidhkls@gmail.com"
-          className="flex items-center gap-2 bg-pink-500 hover:bg-pink-700 text-white px-5 py-2 rounded-md shadow-md transition duration-300"
+          className="flex items-center gap-2 bg-pink-500 hover:bg-pink-700  px-5 py-2 rounded-md shadow-md transition duration-300"
         >
           <Mail size={18} />
           Contact Me
