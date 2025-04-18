@@ -5,7 +5,7 @@ import { Github, Linkedin } from 'lucide-react';
 
 const HeroText = () => {
   const fullText = `I am currently pursuing my B.E. in Computer Science and Engineering. I am a passionate learner and a tech enthusiast. I love to explore new technologies and work on projects that challenge me. I am aspiring to pursue M.Tech in Computer Science to deepen my knowledge in the field. I love reading self improvement books and writing blogs about my learnings.`;
-  
+
   const [displayedText, setDisplayedText] = useState('');
   const [index, setIndex] = useState(0);
 
@@ -21,7 +21,7 @@ const HeroText = () => {
 
   return (
     <div className='flex flex-col justify-center'>
-      <h1 className="text-4xl font-bold mb-4">Hello, I'm</h1> 
+      <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m</h1> {/* Escape single quote in "I'm" */}
       <div className='text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-pink-800 mb-4'>Divya Rani K</div>
       <h2 className="text-1xl text-pink-400 mb-4">Artificial Intelligence & Data Science</h2>
 
@@ -49,29 +49,24 @@ const HeroText = () => {
           <Download size={18} />
           Resume
         </a>
-
-
-
-
-        
       </div>
-      <div className="flex gap-4 mt-6">
-  <a
-    href="https://github.com/divyaranidhkls"
-    target="_blank"
-    className="p-2 rounded-full shadow-md hover:shadow-lg hover:text-pink-400 transition-all duration-200"
-  >
-    <Github size={24} />
-  </a>
-  <a
-    href="https://www.linkedin.com/in/divyarani-k-686b9a286/"
-    target="_blank"
-    className="p-2  rounded-full shadow-md hover:shadow-lg hover:text-pink-400 transition-all duration-200"
-  >
-    <Linkedin size={24} />
-  </a>
-</div>
 
+      <div className="flex gap-4 mt-6">
+        <a
+          href="https://github.com/divyaranidhkls"
+          target="_blank"
+          className="p-2 rounded-full shadow-md hover:shadow-lg hover:text-pink-400 transition-all duration-200"
+        >
+          <Github size={24} />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/divyarani-k-686b9a286/"
+          target="_blank"
+          className="p-2 rounded-full shadow-md hover:shadow-lg hover:text-pink-400 transition-all duration-200"
+        >
+          <Linkedin size={24} />
+        </a>
+      </div>
     </div>
   );
 };
