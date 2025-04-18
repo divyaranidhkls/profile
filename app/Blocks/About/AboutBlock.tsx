@@ -4,7 +4,7 @@ import AboutText from './AboutText';
 
 const AboutBlock = () => {
   return (
-    <div id="about" className="container mx-auto px-4">
+    <div id="about" className="container mx-auto px-4 ">
       <p className="text-4xl font-extrabold text-center mb-1 tracking-widest">
         ABOUT ME
       </p>
