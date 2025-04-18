@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { Github, Linkedin } from 'lucide-react';
 
 const HeroText = () => {
-  const fullText = `I am currently pursuing my B.E. in Computer Science and Engineering. I am a passionate learner and a tech enthusiast. I love to explore new technologies and work on projects that challenge me. I am aspiring to pursue M.Tech in Computer Science to deepen my knowledge in the field. I love reading self improvement books and writing blogs about my learnings.`;
+  const fullText = `I am currently pursuing my B.E. in Computer Science and Engineering. As a passionate learner and technology enthusiast, I have a strong interest in exploring full-stack development and generative AI. I enjoy working on challenging projects that push my boundaries and allow me to apply my skills in innovative ways. Beyond coding, I have a deep interest in self-improvement and regularly write blogs to share insights from the books I read and experiences I gain`;
 
   const [displayedText, setDisplayedText] = useState('');
   const [index, setIndex] = useState(0);
