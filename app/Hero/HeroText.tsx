@@ -3,6 +3,11 @@ import { Download, Mail } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { Github, Linkedin } from 'lucide-react';
 
+
+
+
+
+
 const HeroText = () => {
   const fullText = `I am currently pursuing my B.E. in Computer Science and Engineering. As a passionate learner and technology enthusiast, I have a strong interest in exploring full-stack development and generative AI. I enjoy working on challenging projects that push my boundaries and allow me to apply my skills in innovative ways. Beyond coding, I have a deep interest in self-improvement and regularly write blogs to share insights from the books I read and experiences I gain`;
 
@@ -41,14 +46,14 @@ const HeroText = () => {
         </a>
 
         <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center gap-2 border border-white/20 text-white px-5 py-2 rounded-md hover:bg-white/10 transition duration-300"
-        >
-          <Download size={18} />
-          Resume
-        </a>
+  href="/resume.pdf"
+  download="Divya_Rani_K_Resume.pdf"
+  className="flex items-center gap-2 border border-pink  px-5 py-2 rounded-md hover:bg-white/10 transition duration-300"
+>
+  <Download size={18} />
+  Resume
+</a>
+
       </div>
 
       <div className="flex gap-4 mt-6">
