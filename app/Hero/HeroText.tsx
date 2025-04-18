@@ -25,7 +25,7 @@ const HeroText = () => {
   }, [index, fullText]);
 
   return (
-    <div className='flex flex-col justify-center'>
+    <div className='flex flex-col '>
       <h1 className="text-4xl font-bold mb-4">Hello, I&apos;m</h1> {/* Escape single quote in "I'm" */}
       <div className='text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-200 to-pink-800 mb-4'>Divya Rani K</div>
       <h2 className="text-1xl text-pink-400 mb-4">Artificial Intelligence & Data Science</h2>
