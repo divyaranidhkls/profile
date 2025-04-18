@@ -9,8 +9,7 @@ import Footer from '@/components/footer';
  const RootPage = () => {
   return (
     <div>
-    w-full px-4 sm:px-8 max-w-screen-md mx-auto
-
+ 
     <div className="sticky top-0 z-20 backdrop-blur-xl bg-white/70 dark:bg-black/0 h-15 w-full mx-w-screen-md">
   <NavBar />
 </div>
