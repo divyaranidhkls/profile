@@ -14,7 +14,7 @@ const educationData = [
   },
   {
     degree: "BE in Artificial Intelligence and DataScience",
-    school: "Siddaganga Institute of technology Tumkur",
+    school: "Siddaganga Institute of Technology Tumkur",
     years: "2022-2025",
     image: sit,
     url: "http://www.sit.ac.in/",
