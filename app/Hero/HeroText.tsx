@@ -9,7 +9,7 @@ import { Github, Linkedin } from 'lucide-react';
 
 
 const HeroText = () => {
-  const fullText = `I am currently pursuing my B.E. in Computer Science and Engineering. As a passionate learner and technology enthusiast, I have a strong interest in exploring full-stack development and generative AI. I enjoy working on challenging projects that push my boundaries and allow me to apply my skills in innovative ways. Beyond coding, I have a deep interest in self-improvement and regularly write blogs to share insights from the books I read and experiences I gain`;
+  const fullText = `I'm currently pursuing a Bachelor of Engineering in Computer Science and Engineering. As a dedicated learner and technology enthusiast, I have a keen interest in full-stack development and generative AI. I thrive on challenging projects that push my limits and provide opportunities to apply my skills in creative, impactful ways. Outside of development, I'm passionate about personal growth and frequently write blogs to share insights from the books I read and the experiences I encounter along my journey.`;
 
   const [displayedText, setDisplayedText] = useState('');
   const [index, setIndex] = useState(0);
