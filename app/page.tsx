@@ -10,7 +10,7 @@ import Footer from '@/components/footer';
   return (
     <div>
  
-    <div className="sticky top-0 z-20 backdrop-blur-xl bg-white/70 dark:bg-black/0 h-15 w-full mx-w-screen-md">
+    <div className="sticky top-0 z-20 backdrop-blur-xl bg-white/70 dark:bg-black/0 h-15">
   <NavBar />
 </div>
 
