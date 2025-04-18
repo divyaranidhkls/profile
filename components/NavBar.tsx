@@ -13,7 +13,8 @@ const NavBar = (props:{className ? :string}) => {
     About:"#about",
     Education:"#education",
     skills :"#skills",
-    projects:"#projects"
+    projects:"#projects",
+    contact:"#contact"
  
 
   };
@@ -44,7 +45,7 @@ const NavBar = (props:{className ? :string}) => {
         
           <Link href={paths.projects}>Projects</Link>
           
-          <Link href="/contact">Contact</Link>
+          <Link href={paths.contact}>Contact</Link>
           <ThemeToggle />
         </div>
       </div>
