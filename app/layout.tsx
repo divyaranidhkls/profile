@@ -1,11 +1,18 @@
-import { ThemeProvider } from "next-themes";
-import "./globals.css"
-import React, { PropsWithChildren } from 'react'
+'use client';
 
-export const RootLayout = (props: PropsWithChildren) => {
+import { ThemeProvider } from 'next-themes';
+import './globals.css';
+import React, { PropsWithChildren } from 'react';
+
+export default function RootLayout({ children }: PropsWithChildren) {
   return (
-    <html suppressHydrationWarning className="scroll-smooth"><body><ThemeProvider attribute="class" defaultTheme="system" enableSystem>{props.children}</ThemeProvider></body></html>
+    <html lang="en" suppressHydrationWarning>
+      <head />
+      <body className="scroll-smooth">
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
+    </html>
   );
 }
-
-export default RootLayout;
