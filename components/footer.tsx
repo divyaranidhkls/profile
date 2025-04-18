@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Importing FontAwesome 
 
 const Footer = () => {
   return (
-    <footer className="w-full mt-24 py-8 border-t border-lucid-neutral-300 dark:border-lucid-neutral-700 transition-all ease-in-out">
+    <footer className="w-full mt-24 py-8 border-t border-lucid-neutral-300 dark:border-lucid-neutral-700 transition-all ease-in-out" id="contact">
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm text-lucid-neutral-600 dark:text-lucid-neutral-300 gap-6">
 
        
