@@ -1,25 +1,22 @@
-import React from 'react'
+import React from 'react';
 import HeroText from './HeroText';
-import HeroImage  from './HeroImage';
+import HeroImage from './HeroImage';
 
- const HeroBlock = () => {
+const HeroBlock = () => {
   return (
-    <div className="container max-auto">
-    <div className="flex flex-row justify-between items-center mt-20 ml-20">
-    <div className='w-1/2'><HeroText/></div>
-    
-      <div className='w-1/2'><HeroImage/></div>
-      
+    <div className="container mx-auto px-4">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between mt-12 md:mt-20 gap-8 md:gap-0 max-w-screen-xl mx-auto">
+        
+        <div className="w-full md:w-1/2">
+          <HeroText />
+        </div>
+
+        <div className="w-full md:w-1/2">
+          <HeroImage />
+        </div>
+      </div>
     </div>
-
-
-
-
-
-
-</div>
-  )
-}
-
+  );
+};
 
 export default HeroBlock;
