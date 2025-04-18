@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image'; // Import Image component from next/image
 import gpt from "../../../public/gpt.jpg";
 import sit from "../../../public/sit.jpg";
 
@@ -9,7 +10,7 @@ const educationData = [
     years: "2019-2022",
     image: gpt,
     url: "https://gpt.karnataka.gov.in/gpttumkur/public/en",
-    cgpa : "8.9"
+    cgpa: "8.9"
   },
   {
     degree: "BE in Artificial Intelligence and DataScience",
@@ -17,7 +18,7 @@ const educationData = [
     years: "2022-2025",
     image: sit,
     url: "http://www.sit.ac.in/",
-    cgpa:"8.7"
+    cgpa: "8.7"
   },
 ];
 
@@ -25,7 +26,7 @@ const Education = () => {
   return (
     <div className="flex flex-col gap-9 mt-5" id="education">
       <h2 className="text-2xl font-bold mb-2 text-center">
-      Education
+        Education
       </h2>
 
       <div className="flex flex-col mt-3 gap-20">
@@ -37,10 +38,12 @@ const Education = () => {
               rel="noopener noreferrer"
               className="shrink-0"
             >
-              <img
-                src={edu.image.src}
+              <Image
+                src={edu.image}
                 alt={edu.school}
                 className="w-20 h-20 rounded-lg shadow-md hover:scale-105 transition-transform duration-300"
+                width={80}  // You can adjust the width and height based on your preference
+                height={80}  // Same for height
               />
             </a>
             <div>
