@@ -36,13 +36,13 @@ const Interests = [
     ♟️ Chess
   </span>
   <span className="relative px-6 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-blue-400 via-pink-200 to-blue-300 text-gray-800 dark:text-black shadow-md hover:scale-105 transition duration-300">
-    📚 Reading
+    📚 Reading Comics
   </span>
   <span className="relative px-6 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-pink-400 via-blue-100 to-pink-200 text-gray-800 dark:text-black shadow-md hover:scale-105 transition duration-300">
     🧩 Puzzle Solving
   </span>
   <span className="relative px-6 py-2 text-sm font-semibold rounded-full bg-gradient-to-r from-blue-100 via-pink-100 to-blue-200 text-gray-800 dark:text-black shadow-md hover:scale-105 transition duration-300">
-    🎨 Comics
+  🏸Ball Badminton
   </span>
 </div>
 
