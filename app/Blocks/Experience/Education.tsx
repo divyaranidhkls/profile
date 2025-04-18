@@ -29,7 +29,7 @@ const Education = () => {
         Education
       </h2>
 
-      <div className="flex flex-col mt-3 gap-20">
+      <div className="flex flex-col mt-3 gap-20 ml-0">
         {educationData.map((edu, idx) => (
           <div key={idx} className="flex items-center gap-6 md:gap-20">
             <a
